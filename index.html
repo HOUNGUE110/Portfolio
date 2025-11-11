@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUNGUE ADI GEDEON | Développeur Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">HOUNGUE <span class="accent-name">ADI GEDEON</span></div>
+        <nav>
+            <ul>
+                <li><a href="#propos">A propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#compétences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div>
+                <img src="image.webp" alt="Developpeur web travaillant sur un ordinateur">
+            </div>
+
+            <div class="hero-content">
+                <h1>Je suis Gédéon, Développeur en devenir</h1>
+                <p class="tagline">passionné par le web et le design!</p>
+                <a href="#projets" class="btn primary">Voir mes projets</a>
+                <a href="HOUNGUE_CV.pdf" class="btn secondary" target="_blank">Télécharger mon CV</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="propos" class="about">
+            <h2>A propos</h2>
+            <div class="profile-pic">
+                <img src="profil.png" alt="Photo de profil">
+            </div>
+            <div class="about-content">
+                <p>Je m'appelle <span>Adi Gédéon</span>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant(e) en <span>développement web</span>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="projets" class="projects">
+            <h2>Mes Projets</h2>
+            <div class="project-grid">
+            
+                <article class="project-card">
+                    <h3>Projet 1</h3>
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                    <div class="tags">
+                        <span>#html</span>
+                        <span>#css</span>
+                        <span>#js</span>
+                    </div>
+                    <a href="#" class="btn tertiary">Voir</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Projet 2</h3>
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                    <div class="tags">
+                        <span>#html</span>
+                        <span>#css</span>
+                        <span>#js</span>
+                    </div>
+                    <a href="#" class="btn tertiary">Voir</a>
+                </article>
+                
+                 <article class="project-card">
+                    <h3>Projet 3</h3>
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                    <div class="tags">
+                        <span>#html</span>
+                        <span>#css</span>
+                        <span>#js</span>
+                    </div>
+                    <a href="#" class="btn tertiary">Voir</a>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+<section id="competences" class="skills">
+    <h2>Mes Compétences</h2>
+    <div class="skills-container">
+        <div class="skill-group hard-skills">
+            <h3>Hard Skills</h3>
+            <div class="skill-bar-container">
+                <div class="skill-item">
+                    <p>HTML</p>
+                    <div class="bar-background">
+                        <div class="bar-level html-level"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p>CSS</p>
+                    <div class="bar-background">
+                        <div class="bar-level css-level"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p>JavaScript</p>
+                    <div class="bar-background">
+                        <div class="bar-level js-level"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p>VS Code</p>
+                    <div class="bar-background">
+                        <div class="bar-level vscode-level"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skill-group soft-skills">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li><i class="fas fa-project-diagram"></i> Gestion de projet </li>
+                <li><i class="fas fa-lightbulb"></i> Resolution de probleme </li>
+                <li><i class="fas fa-users"></i> Adaptabilité </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+        <hr>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <h3>Vous avez un projet en tête ? N'hésitez pas à me contacter</h3>
+
+            <form action="" method="" class="contact-form" id="contactForm">
+                <div class="form-group-inline">
+                    <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+                <input type="text" id="sujet" name="sujet" placeholder="Votre sujet" required>
+                <textarea id="message" name="message" rows="6" placeholder="Votre message..." required></textarea>
+                
+                <button type="submit" class="btn primary send-btn">Envoyer</button>
+            </form>
+            <p id="confirmationMessage" class="confirmation-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed by HOUNGUE ADI GEDEON with HTML CSS JS</p>
+        <p>Tous droits réservés-2025</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
